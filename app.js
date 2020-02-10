@@ -1,9 +1,9 @@
 //import { createStore } from "redux"; const createStore = requiere('redux').createStore;
-const createStore = requiere('redux').createStore;
+const createStore = require('redux').createStore;
 
 //##### Actions
 const BUY_POKEMON = 'BUY_POKEMON';
-const BUY_POKEMON = 'RETURN_POKEMON';
+const RETURN_POKEMON = 'RETURN_POKEMON';
 
 const buy_pokemon_action = (cant) => {
     return {
